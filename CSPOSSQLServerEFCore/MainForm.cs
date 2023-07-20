@@ -26,7 +26,7 @@ namespace CSPOSSQLServerEFCore
             f.StartPosition = FormStartPosition.Manual;
             f.Left = 3;
             f.Top = 3;
-            f.Show(); //สั่งเปิดformลูก
+            f.Show(); 
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
