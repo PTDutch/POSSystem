@@ -32,9 +32,6 @@ namespace CSPOSSQLServerEFCore
 
             //คลิกบน DataGV แล้วให้แสดงข้อมูลไปที่  Textbox ต่างๆ
             dataGridView1.CellClick += dataGridView1_SelectionChanged;
-
-
-
         }
 
         //สร้างตัวแปรระดับ Field
