@@ -30,7 +30,7 @@ namespace CSPOSSQLServerEFCore
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;//
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 
-            //คลิกบน DataGV แล้วให้แสดงข้อมูลไปที่  Textbo ต่างๆ
+            //คลิกบน DataGV แล้วให้แสดงข้อมูลไปที่  Textbox ต่างๆ
             dataGridView1.CellClick += dataGridView1_SelectionChanged;
 
 
