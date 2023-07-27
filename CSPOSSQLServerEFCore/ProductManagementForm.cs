@@ -140,7 +140,6 @@ namespace CSPOSSQLServerEFCore
             addNewButton.Text = "Add new"; //ใช้ตอน instert ข้อมูลเสร็จให้มีการเปลี่ยนข้อความ Text เป็น Add new จากตอนแรกอาจเป็น cancel
             dataGridView1.Enabled = true;
             keywordTextBox.Focus();
-
         }
 
         private void refreshButton_Click(object sender, EventArgs e)
