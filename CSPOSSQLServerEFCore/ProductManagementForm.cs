@@ -34,7 +34,7 @@ namespace CSPOSSQLServerEFCore
             dataGridView1.CellClick += dataGridView1_SelectionChanged;
         }
 
-        //สร้างตัวแปรระดับ Field
+        //สร้างตัวแปรระดับ Field สำหรับเก็บ ID
         private int currentID = -1;
         private void dataGridView1_SelectionChanged(object? sender, DataGridViewCellEventArgs e)
         {
@@ -45,7 +45,7 @@ namespace CSPOSSQLServerEFCore
                 {
                     currentID = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
 
-                    //ประกาศตัวแปรมาแทร DataGVRow
+                    //ประกาศตัวแปรมาแทน DataGVRow
                     DataGridViewRow row = dataGridView1.SelectedRows[0];//แถวที่เลือก
                     //columnต่างๆของ dataGV ก็จะเป็น cell //การทำแบบนี้จะมีปัญหาถ้ามีค่า null
                     productIDTextBox.Text = row.Cells[0].Value.ToString();
