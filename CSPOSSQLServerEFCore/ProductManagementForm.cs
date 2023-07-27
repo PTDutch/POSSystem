@@ -224,7 +224,7 @@ namespace CSPOSSQLServerEFCore
             if (string.IsNullOrEmpty(barecodeTextBox.Text.Trim()) ||//เช็คค่าว่างของ barecode, productname
                string.IsNullOrEmpty(costPriceTextBox.Text.Trim()))
             {
-                //แจ่้งเเตือน User
+                //แจ้งเเตือน User
                 MessageBox.Show("Please fill in the required fields.", "Saving data : Dutcheang.",
                     MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
