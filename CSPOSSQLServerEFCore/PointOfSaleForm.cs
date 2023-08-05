@@ -62,7 +62,7 @@ namespace CSPOSSQLServerEFCore
 
             for (var i = 0; i <= header.Length - 1; i++) 
             {
-                dataGridView1.Columns[i].HeaderText = header[i]; //[i]ตัวนับ
+                dataGridView1.Columns[i].HeaderText = header[i]; 
             }
 
             //กำหนดความกว้างแต่ละ column
