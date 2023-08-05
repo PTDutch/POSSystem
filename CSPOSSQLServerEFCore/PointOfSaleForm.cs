@@ -137,7 +137,7 @@ namespace CSPOSSQLServerEFCore
             }
         }
 
-        private void generateCustomSalesID() //เขียนโค้ดสร้างเลขที่ใบเสร็จแบบกดหนดเเองตรงนี้
+        private void generateCustomSalesID() //เขียนโค้ดสร้างเลขที่ใบเสร็จแบบกดหนดเเอง
         {
             //ในเลขที่ใบเสร็จ จะมีวันเดือนปีสร้างตัวแปรมารับ
             string currentDate = DateTime.Now.ToString("ddMMyyyy");
