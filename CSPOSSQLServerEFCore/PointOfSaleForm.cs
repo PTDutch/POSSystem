@@ -60,7 +60,7 @@ namespace CSPOSSQLServerEFCore
             string[] header = new[] { "ID", "Barcode", "Product Name", "Selling Price", "Quantity", "Subtotal" };
             dataGridView1.ColumnCount = header.Length; //6 //บอกว่า DataGV มีกี่ column
 
-            for (var i = 0; i <= header.Length - 1; i++) //เริ่มจากศูนย์ ลบหนึ่งด้วย
+            for (var i = 0; i <= header.Length - 1; i++) 
             {
                 dataGridView1.Columns[i].HeaderText = header[i]; //[i]ตัวนับ
             }
