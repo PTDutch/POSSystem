@@ -167,7 +167,6 @@ namespace CSPOSSQLServerEFCore
                     referenceNo = Convert.ToString(intID); //
                 }
             }
-
         }
 
         private void barcodeTextBox_KeyDown(object sender, KeyEventArgs e)
@@ -192,7 +191,6 @@ namespace CSPOSSQLServerEFCore
                     //เงื่อนไขต่างๆผ่านดึงขอมูลสินค้ามาแสดง  DataGridViiew
                     searchProduct(barcodeTextBox.Text.Trim(), false);
                 }
-
             }
             catch (Exception ex)
             {
@@ -267,7 +265,6 @@ namespace CSPOSSQLServerEFCore
                             //default
                             numericUpDown1.Value = 1;
                         }
-
                     }
                     else //ถ้าไม่มีข้อมูล //กรณีที่ search แล้วไม่เจอสินค้า
                     {
@@ -369,8 +366,6 @@ namespace CSPOSSQLServerEFCore
 
                     calculateTotalAmount();
                 }
-
-
             }
             catch (Exception ex)
             {
@@ -385,7 +380,6 @@ namespace CSPOSSQLServerEFCore
                 //ดึงbarcodeจาก dataGV มา
                 var barcode = dataGridView1.Rows[e.RowIndex].Cells[1].Value;
                 searchProduct(barcode.ToString(), true); //ส่ง true ไปเพระาตอนยิง Barcode เป็นค่า false แต่ตอน double เป็นค่า 
-
             }
         }
 
@@ -493,7 +487,6 @@ namespace CSPOSSQLServerEFCore
                 changeTextBox.Clear();
                 tenderedTextBox.Focus();
             }
-
         }
 
         private void saveButton_Click(object sender, EventArgs e)
@@ -585,7 +578,6 @@ namespace CSPOSSQLServerEFCore
                             {
                                 //เช็คจำนวนสินค้าของเหลือ UnitsInStock
                                 proData.UnitInStock = proData.UnitInStock - proQty;
-
                             }
 
                         } // End For Loop.
