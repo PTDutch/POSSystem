@@ -47,7 +47,7 @@ namespace CSPOSSQLServerEFCore
         {
             currentDateTextBox.Text = DateTime.Now.ToString();
 
-            //ตรงนี้จริงๆจะดึงมาตอนสร้างระบบ login (ยังไม่ทำ)
+            //ดึงมาตอนสร้างระบบ login (ยังไม่ทำ)
             employeeIDTextBox.Text = "1";
             employeeNameTextBox.Text = "Sadutch Yanai";
 
