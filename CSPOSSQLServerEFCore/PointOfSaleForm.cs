@@ -96,7 +96,7 @@ namespace CSPOSSQLServerEFCore
             DialogResult result; //ใช้ DialoResult มาเช็คว่ากดปุ่ม yes หรือไม่
             if (dataGridView1.Rows.Count > 0) //เงื่อไขถ้าเราไม่ได้ยิง barcode จะปิดไปเลย
             {
-                result = MessageBox.Show(this, msg, caption, btn, ico); //ถ้ายิงิbarcodeมาแล้วจะถาม
+                result = MessageBox.Show(this, msg, caption, btn, ico); //ถ้ายิงbarcodeมาแล้วจะถาม
                 if (result == DialogResult.Yes)
                 {
                     e.Cancel = false;
